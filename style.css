@@ -113,7 +113,7 @@ section h1 {
   text-align: center;
   border-top: 8px solid #4aaaa5;
   bottom: 0;
-  position: absolute;
+  position: fixed;
   background-color: #666666;
 }
 
@@ -360,6 +360,9 @@ button:hover {
   .center {
     font-size: 15px;
   }
+  .name {
+   padding: 2px;
+  }
 
   .inside-footer {
     width: 80%;
@@ -370,7 +373,28 @@ button:hover {
   /* index   */
   .nav {
     position: static;
+    width: 100%;
   }
+
+  .top-navbar {
+    padding: 5px;
+    font-size: 5px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .top-navbar {
+    padding: 5px;
+    font-size: 5px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .name {
+    width: 100%;
+    text-align: center;
+  }
+
   .center {
     font-size: 10px;
   }
@@ -378,15 +402,6 @@ button:hover {
     width: 80%;
   }
 
-  .top-navbar {
-    padding: 5px;
-    font-size: 5px;
-  }
-
-  .name {
-    width: 100%;
-    text-align: center;
-  }
 
   .pic {
     width: 150px;
