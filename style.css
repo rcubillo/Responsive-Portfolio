@@ -1,0 +1,404 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23f7f7f7' fill-opacity='0.79'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  line-height: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+.header {
+  background-color: #ffffff;
+  border-bottom: 2px solid #cccccc;
+  width: 100%;
+  overflow: hidden;
+}
+
+.nav {
+  height: auto;
+  width: 960px;
+  margin: 0 auto;
+
+  /* max-width: 90%; */
+}
+
+.top-navbar {
+  float: right;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/* Decoration of the links */
+header a {
+  text-decoration: none;
+  color: #777777;
+  font-size: 20px;
+  padding: 0px 15px 0px 15px;
+}
+
+a:hover {
+  background-color: #4aaaaa;
+  color: white;
+}
+
+.name {
+  background-color: #4aaaaa;
+  color: white;
+  display: block;
+  float: left;
+  padding: 0px 40px 0px 40px;
+}
+
+.portfolio {
+  border-right: 1px solid gray;
+}
+
+.index {
+  border-right: 1px solid gray;
+}
+
+/*Big box in the middle (index)*/
+.about-me {
+  width: 960px;
+  overflow: hidden;
+  border: 2px solid #dddddd;
+  margin: 0 auto;
+  background-color: #ffffff;
+  margin-top: 6%;
+  /* max-width: 90%; */
+}
+
+.center {
+  overflow: auto;
+}
+
+.title-aboutme {
+  color: #4aaaaa;
+  font-size: 40px;
+  font-family: cursive;
+}
+
+/*Inside the big box in the middle*/
+.pic {
+  width: 150px;
+  height: 150px;
+  float: left;
+  display: block;
+  margin: 10px 10px 0 10px;
+}
+
+#horizontal {
+  border: 2px solid #cccccc;
+  border-radius: 300px/10px;
+  height: 0px;
+  text-align: center;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+section h1 {
+  padding-left: 50px;
+}
+
+.me {
+  padding: 10px;
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  text-align: center;
+  border-top: 8px solid #4aaaa5;
+  bottom: 0;
+  position: absolute;
+  background-color: #666666;
+}
+
+.inside-footer {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 960px;
+  /* max-width: 90%; */
+}
+
+.inside-footer p {
+  color: #cccccc;
+}
+
+/* Portfolio */
+
+.full-container {
+  border: 2px solid #dddddd;
+  margin: 0 auto;
+  margin-top: 6%;
+  width: 960px;
+  overflow: hidden;
+  background-color: #ffffff;
+  max-width: 80%;
+}
+
+.container-portfolio {
+  overflow: auto;
+}
+
+#name-container {
+  color: #4aaaaa;
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 40px;
+}
+
+.game-container-top {
+  text-align: center;
+  overflow: auto;
+  margin-left: 25%;
+}
+
+/*Game 1*/
+.game1 {
+  position: relative;
+  overflow: auto;
+  float: left;
+}
+
+.game1 img {
+  height: 200px;
+  width: 200px;
+  margin: 20px 20px 20px 20px;
+}
+
+.div-g1 {
+  background-color: #4aaaaa;
+  top: 50%;
+  position: absolute;
+  width: 201px;
+  margin-left: 19px;
+  color: white;
+  opacity: 0.9;
+}
+
+/*Game 2*/
+.game2 {
+  position: relative;
+  overflow: auto;
+  float: left;
+}
+
+.game2 img {
+  height: 200px;
+  width: 200px;
+  margin: 20px 20px 20px 20px;
+}
+
+.div-g2 {
+  background-color: #4aaaaa;
+  top: 50%;
+  position: absolute;
+  width: 201px;
+  margin-left: 19px;
+  color: white;
+  opacity: 0.9;
+}
+
+.game-container-down {
+  text-align: center;
+  overflow: auto;
+  margin-left: 25%;
+}
+
+/*Game 3*/
+.game3 {
+  position: relative;
+  overflow: auto;
+  float: left;
+}
+
+.game3 img {
+  height: 200px;
+  width: 200px;
+  margin: 20px 20px 20px 20px;
+}
+
+.div-g3 {
+  background-color: #4aaaaa;
+  top: 50%;
+  position: absolute;
+  width: 201px;
+  margin-left: 19px;
+  color: white;
+  opacity: 0.9;
+}
+
+/*Game 4*/
+.game4 {
+  position: relative;
+  overflow: auto;
+  float: left;
+}
+
+.game4 img {
+  height: 200px;
+  width: 200px;
+  margin: 20px 20px 20px 20px;
+}
+
+.div-g4 {
+  background-color: #4aaaaa;
+  top: 50%;
+  position: absolute;
+  width: 201px;
+  margin-left: 19px;
+  color: white;
+  opacity: 0.9;
+}
+
+/*Contact*/
+
+.contact {
+  border: 2px solid #dddddd;
+  width: 960px;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 6%;
+  background-color: #ffffff;
+  color: #777777;
+  max-width: 80%;
+}
+
+.contact-box {
+  overflow: auto;
+}
+
+.form {
+  padding: 20px;
+}
+
+#contact-tittle {
+  color: #4aaaaa;
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 40px;
+}
+
+.form-inside {
+  margin-left: 10%;
+}
+
+#text-contact {
+  height: 40px;
+  width: 90%;
+  margin-top: 12px;
+}
+
+#text-contact:active {
+  background-color: antiquewhite;
+}
+
+#email-text {
+  height: 40px;
+  width: 90%;
+  margin-top: 12px;
+}
+
+#email-text:active {
+  background-color: antiquewhite;
+}
+
+#message-text {
+  height: 100px;
+  width: 90%;
+  margin-top: 12px;
+}
+
+#message-text:active {
+  background-color: antiquewhite;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+button {
+  background-color: #4aaaaa;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+  /*When the cursor touches the button it changes*/
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #357979;
+}
+
+/* Media Screen */
+
+@media only screen and (max-width: 980px) {
+  .nav {
+    width: 80%;
+  }
+  .about-me {
+    width: 80%;
+  }
+  .inside-footer {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nav {
+    height:10%;
+  }
+
+  .center {
+    font-size: 15px;
+  }
+
+  .inside-footer {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  /* index   */
+  .nav {
+    position: static;
+  }
+  .center {
+    font-size: 10px;
+  }
+  .inside-footer {
+    width: 80%;
+  }
+
+  .top-navbar {
+    padding: 5px;
+    font-size: 5px;
+  }
+
+  .name {
+    width: 100%;
+    text-align: center;
+  }
+
+  .pic {
+    width: 150px;
+    height: 150px;
+  }
+
+  /* contact */
+  .game-container-top {
+    margin-left: 12%;
+  }
+
+  .game-container-down {
+    margin-left: 12%;
+  }
+}
