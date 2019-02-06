@@ -170,6 +170,7 @@ section h1 {
 }
 
 .div-g1 {
+
   background-color: #4aaaaa;
   top: 50%;
   position: absolute;
@@ -177,6 +178,7 @@ section h1 {
   margin-left: 19px;
   color: white;
   opacity: 0.9;
+  height: 40px;
 }
 
 /*Game 2*/
@@ -255,6 +257,30 @@ section h1 {
 }
 
 /*Contact*/
+
+.sub-but{
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  0%   {background-color:rgb(83, 182, 240); left:0px; top:0px;}
+  25%  {background-color:rgb(65, 143, 189); top:0px;}
+  50%  {background-color:rgb(46, 106, 141); top:200px;}
+  75%  {background-color:rgb(37, 97, 131); top:200px;}
+  100% {background-color:rgb(22, 54, 73); top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+  0%   {background-color:rgb(83, 182, 240); left:0px; top:0px;}
+  25%  {background-color:rgb(65, 143, 189); top:0px;}
+  50%  {background-color:rgb(46, 106, 141); top:200px;}
+  75%  {background-color:rgb(37, 97, 131); top:200px;}
+  100% {background-color:rgb(22, 54, 73); top:0px;}
+}
 
 .contact {
   border: 2px solid #dddddd;
